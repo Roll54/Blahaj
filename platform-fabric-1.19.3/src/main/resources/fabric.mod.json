@@ -6,18 +6,22 @@
   "description": "Soft toy, shark mod, 16px.",
   "authors": [
     "hibi",
-    "infoplayerstart"
+    "infoplayerstart",
+    "DaFuqs"
   ],
   "contact": {
-    "homepage": "https://hibiscus.pet/mods/blahaj",
-    "issues": "https://github.com/Hibiii/Blahaj/issues",
-    "sources": "https://github.com/Hibiii/Blahaj"
+    "homepage": "https://github.com/DaFuqs/Blahaj",
+    "issues": "https://github.com/DaFuqs/Blahaj/issues",
+    "sources": "https://github.com/DaFuqs/Blahaj"
   },
   "icon": "assets/blahaj/icon.png",
   "license": "Unlicense",
   "entrypoints": {
     "main": [
-      "hibi.blahaj.Common"
+      "hibi.blahaj.Blahaj"
+    ],
+    "client": [
+      "hibi.blahaj.BlahajClient"
     ]
   },
   "mixins": [

@@ -1,19 +1,19 @@
 package hibi.blahaj.mixin;
 
+import hibi.blahaj.block.*;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 
-import hibi.blahaj.CuddlyItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtString;
 import net.minecraft.screen.AnvilScreenHandler;
 
 @Mixin(AnvilScreenHandler.class)
 public class AnvilScreenHandlerMixin extends ForgingScreenHandlerMixin {
-	
+
 	@Inject(
 		method = "updateResult()V",
 		at = {

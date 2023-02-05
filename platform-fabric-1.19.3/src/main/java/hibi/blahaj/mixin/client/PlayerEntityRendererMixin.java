@@ -1,5 +1,6 @@
-package hibi.blahaj.mixin;
+package hibi.blahaj.mixin.client;
 
+import hibi.blahaj.block.*;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.entity.PlayerEntityRenderer;
 import net.minecraft.client.render.entity.model.BipedEntityModel;
@@ -11,8 +12,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-
-import hibi.blahaj.CuddlyItem;
 
 @Mixin(PlayerEntityRenderer.class)
 public class PlayerEntityRendererMixin {
