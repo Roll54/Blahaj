@@ -3,21 +3,21 @@
   "pattern": [
     " # ",
     "###",
-    "PW "
+    "GW "
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:blue_wool"
     },
-    "P": {
-      "item": "minecraft:pink_dye"
+    "G": {
+      "item": "minecraft:light_gray_wool"
     },
     "W": {
       "item": "minecraft:white_wool"
     }
   },
   "result": {
-    "item": "blahaj:blue_shark",
+    "item": "blahaj:blue_whale",
     "count": 1
   }
 }
