@@ -5,10 +5,10 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "AllayEntityMixin",
-    "AnvilScreenHandlerMixin"
+    "AnvilScreenHandlerMixin",
+    "ForgingScreenHandlerMixin"
   ],
   "client": [
-    "ForgingScreenHandlerMixin",
     "client.BipedEntityModelMixin",
     "client.PlayerEntityRendererMixin"
   ],

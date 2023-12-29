@@ -1,4 +1,4 @@
-package hibi.blahaj.mixin.client;
+package hibi.blahaj.mixin;
 
 import hibi.blahaj.block.*;
 import org.spongepowered.asm.mixin.Mixin;
